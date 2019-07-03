@@ -1,28 +1,83 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Выше 3 Мета-теги ** должны прийти в первую очередь в голове; любой другой руководитель контент *после* эти теги -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- Предупреждение: Respond.js не работает при просмотре страницы через файл:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script >
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Проект сайта МФЦ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
-<h1>Hello, world!</h1>
+<div class="pages">
+    <div class="pages__project">Проект сайта МФЦ</div>
+    <div class="pages__title">Готовность по проекту</div>
+    <ul class="pages__list">
+        <li class="pages__item pages__item_red">
+            <a href="mfc.html" target="_blank">
+                <span class="pages__name">Главная страница</span>
+                <span class="pages__href">mfc.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="news.html" target="_blank">
+                <span class="pages__name">Новости</span>
+                <span class="pages__href">news.html</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif; }
 
-<!-- на jQuery (необходим для Bootstrap - х JavaScript плагины) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
-<script src="js/bootstrap.min.js"></script>
+    .pages {
+        display: flex;
+        flex-direction: column; }
+    .pages__project {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 22px; }
+    .pages__title {
+        text-align: center;
+        font-size: 18px;
+        padding: 15px; }
+    .pages__list {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        list-style-type: none; }
+    .pages__item {
+        background-color: #f0f0f0;
+        margin: 5px;
+        padding: 5px;
+        transition: background-color .1s ease-in-out; }
+    .pages__item a {
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between; }
+    .pages__item_green {
+        background-color: #85bb3d; }
+    .pages__item_green:hover {
+        background-color: #7fb43c; }
+    .pages__item_orange {
+        background-color: #ffa810; }
+    .pages__item_orange:hover {
+        background-color: #e99810; }
+    .pages__item_red {
+        background-color: #ff6653; }
+    .pages__item_red:hover {
+        background-color: #e8624f; }
+
+    @media (max-width: 700px) {
+        .pages .pages__list .pages__item .pages__href {
+            display: none; } }
+</style>
+<script>
+    $('a[href="#"]').attr('target','_self');
+</script>
 </body>
 </html>
