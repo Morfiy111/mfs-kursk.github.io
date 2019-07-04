@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/mfc.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
+              <caret line="227" column="51" selection-start-line="227" selection-start-column="51" selection-end-line="227" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="222">
+              <caret line="240" column="19" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="99" />
+    <option name="x" value="96" />
+    <option name="y" value="351" />
     <option name="width" value="1242" />
     <option name="height" value="675" />
   </component>
@@ -129,15 +129,15 @@
       <option name="presentableId" value="Default" />
       <updated>1562135447375</updated>
       <workItem from="1562135448846" duration="7267000" />
-      <workItem from="1562218478016" duration="20036000" />
+      <workItem from="1562218478016" duration="23629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27303000" />
+    <option name="totallyTimeSpent" value="30896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="99" width="1242" height="675" extended-state="0" />
+    <frame x="96" y="351" width="1242" height="675" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25420874" />
@@ -153,7 +153,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3296501" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3296501" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -172,13 +172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -189,10 +182,17 @@
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="240" column="19" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mfc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
+          <caret line="227" column="51" selection-start-line="227" selection-start-column="51" selection-end-line="227" selection-end-column="51" />
         </state>
       </provider>
     </entry>
