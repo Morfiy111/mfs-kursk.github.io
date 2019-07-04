@@ -7,6 +7,8 @@
     <title>МФЦ - Курск</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -34,35 +36,109 @@
         </div>
         <div class="navigation-title-block">
             <nav class="navbar navbar-default">
-                    <!-- Заголовок -->
-                    <div class="navbar-header">
-                        <!-- Кнопка «Гамбургер» отображается только в мобильном виде (предназначена для открытия основного содержимого Navbar) -->
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
-                    <div class="collapse navbar-collapse" id="navbar-main">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
-                            <li><a href="#">НОВОСТИ И СОБЫТИЯ</a></li>
-                            <li><a href="#">ОБРАТНАЯ СВЯЗЬ</a></li>
-                            <li><a href="#">О НАС</a></li>
-                            <li><a href="#">КОНТАКТЫ</a></li>
-                            <li><a href="#">СМИ</a></li>
-                        </ul>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-main">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
+                        <li><a href="#">НОВОСТИ И СОБЫТИЯ</a></li>
+                        <li><a href="#">ОБРАТНАЯ СВЯЗЬ</a></li>
+                        <li><a href="#">О НАС</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                        <li><a href="#">СМИ</a></li>
+                    </ul>
+                </div>
             </nav>
             <h1 class="main-title">Автономное учреждение Курской области "Многофункциональный центр по предоставлению государственных и муниципальных услуг"</h1>
             <span class="title-grey-text">тел: <a href="tel:+74712741480">+7 (4712) 74-14-80</a>, режим работы <b>call</b>-<b>центра: пн. - пт. с 9.00 до 18.00 (без перерыва), сб., вс. - выходной</b></span>
         </div>
     </header>
+    <section class="main-page-block">
+        <div class="left-aside">
+            <ul class="aside-menu-list" id="accordion">
+                <li>
+                    <a href="#">Перечень услуг</a>
+                </li>
+                <li>
+                    <a href="#">Нормативные правовые документы</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"class="angle-link-menu">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <ul id="collapse1" class="panel-collapse collapse">
+                        <li>
+                            <a href="#">Нормативные правовые акты</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Справочная информация</a>
+                </li>
+                <li>
+                    <a href="#">Статистика</a>
+                </li>
+                <li>
+                    <a href="#">Личный кабинет</a>
+                </li>
+                <li>
+                    <a href="#">Электронные услуги</a>
+                </li>
+                <li>
+                    <a href="#">Государственная пошлина и иные платежи</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="angle-link-menu">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <ul id="collapse2" class="panel-collapse collapse">
+                        <li>
+                            <a href="#">Росреестр</a>
+                        </li>
+                        <li>
+                            <a href="#">УФНС</a>
+                        </li>
+                        <li>
+                            <a href="#">УМВД</a>
+                        </li>
+                        <li>
+                            <a href="#">ЗАГС</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Наши партнеры</a>
+                </li>
+                <li>
+                    <a href="#">Услуги для бизнеса</a>
+                </li>
+                <li>
+                    <a href="#">Консультация online</a>
+                </li>
+                <li>
+                    <a href="#">Вопрос-ответ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="owl-carousel">
+                <div class="carousel-item-image">
+                    <img src="images/banner-1.png" alt="">
+                </div>
+                <div class="carousel-item-image">
+                    <img src="images/banner-2.png" alt="">
+                </div>
+                <div class="carousel-item-image">
+                    <img src="images/banner-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-<!-- на jQuery (необходим для Bootstrap - х JavaScript плагины) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
+<script src="js/owl.carousel.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
 </body>

@@ -31,6 +31,7 @@ a:hover {
 .header-page-block {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 30px;
 }
 .navbar {
     min-height: 0;
@@ -80,4 +81,79 @@ a:hover {
 }
 .title-grey-text a:hover {
     text-decoration: none;
+}
+.aside-menu-list {
+    padding-left: 0;
+}
+.left-aside ul {
+    list-style: none;
+}
+.left-aside ul ul {
+    padding-left: 0;
+}
+.left-aside ul ul li a{
+    padding-left: 20px;
+}
+.aside-menu-list a{
+    background-color: #C39367;
+    color: #fff;
+    display: block;
+    padding: 10px 24px 10px 10px;
+}
+.main-page-block {
+    display: flex;
+}
+.left-aside {
+    width: 24%;
+}
+.main-content {
+    width: 76%;
+    padding-left: 30px;
+}
+.aside-menu-list li {
+    position: relative;
+}
+.aside-menu-list .angle-link-menu {
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    padding: 0;
+    font-size: 22px;
+    top: 5px;
+    background-color: transparent;
+}
+.aside-menu-list .angle-link-menu:hover, .aside-menu-list .angle-link-menu:hover i {
+    background-color: transparent;
+    color: #F35D17;
+}
+.aside-menu-list a:hover {
+    background-color: #F35D17;
+}
+.aside-menu-list a:hover i {
+    background-color: #F35D17;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #F35D17;
+}
+.chevron-background:hover {
+    color: #C39367;
 }
