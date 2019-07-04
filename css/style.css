@@ -6,7 +6,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #f08a14;
+    color: #E04E39;
 }
 .head-top-line {
     display: flex;
@@ -87,6 +87,7 @@ a:hover {
 }
 .left-aside ul {
     list-style: none;
+    margin-bottom: 30px;
 }
 .left-aside ul ul {
     padding-left: 0;
@@ -152,8 +153,29 @@ a:hover {
 }
 .chevron-background {
     font-size: 55px;
-    color: #F35D17;
+    color: #E04E39;
 }
 .chevron-background:hover {
     color: #C39367;
+}
+.left-banner-block img {
+    width: 100%;
+}
+.left-banner-block {
+    margin-bottom: 30px;
+}
+.left-working-mode-title, .red-text, .red-text-end {
+    color: #E04E39;
+    font-size: 18px;
+}
+.left-working-mode-day {
+    font-size: 18px;
+}
+.red-text {
+    display: inline-block;
+    width: 30px;
+}
+.left-working-mode {
+    display: flex;
+    justify-content: center;
 }
