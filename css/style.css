@@ -265,3 +265,20 @@ a:hover {
 .pagenav {
     padding: 2px;
 }
+.footer-information {
+    border-top: 1px solid #623B2A;
+}
+.footer-page {
+    display: flex;
+}
+.footer-copyright {
+    width: 24%;
+    padding: 25px 0;
+}
+.footer-information {
+    width: 76%;
+    padding: 24px 0;
+}
+.footer-page {
+    color: #644b2d;
+}
