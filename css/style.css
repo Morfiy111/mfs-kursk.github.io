@@ -282,3 +282,9 @@ a:hover {
 .footer-page {
     color: #644b2d;
 }
+.footer-page a {
+    color: #644b2d;
+}
+.footer-page a:hover {
+    color: #C39367;
+}
