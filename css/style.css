@@ -88,7 +88,6 @@ a:hover {
 }
 .left-aside ul {
     list-style: none;
-    margin-bottom: 30px;
 }
 .left-aside ul ul {
     padding-left: 0;
@@ -274,6 +273,7 @@ a:hover {
 .footer-copyright {
     width: 24%;
     padding: 25px 0;
+    padding-right: 15px;
 }
 .footer-information {
     width: 76%;
@@ -336,15 +336,14 @@ a:hover {
     right: 0;
     margin: 0;
     position: fixed;
-    bottom: 30px;
+    bottom: 67px;
     outline:none;
-    width: 60px;
+    width: 56px;
     color: #333333;
     line-height: 30px;
     text-decoration: none;
     padding: 0px 0 0 28px;
     background: url("../images/scrolltop.png") no-repeat 7px 11px #ffffff;
-
     border-radius: 0 4px 4px 0;
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
@@ -353,6 +352,29 @@ a:hover {
 }
 #button-up span {
     display: block;
-    width: 48px;
+    width: 56px;
     height: 66px;
+}
+@media(max-width: 1199px) {
+    .nav > li > a {
+        padding: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-nav > li {
+        margin: 8px 0;
+    }
+    .navigation-title-block {
+        width: 74%;
+    }
+    .head-line-empty, .header-logo-block {
+        width: 26%;
+    }
+    .main-content {
+        width: 74%;
+        padding-left: 20px;
+    }
+    .pagination li {
+        padding: 2px;
+    }
 }
