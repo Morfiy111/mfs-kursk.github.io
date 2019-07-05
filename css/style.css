@@ -267,7 +267,7 @@ a:hover {
 .footer-information {
     border-top: 1px solid #623B2A;
 }
-.footer-page {
+.footer-page-flex {
     display: flex;
 }
 .footer-copyright {
@@ -354,6 +354,9 @@ a:hover {
     display: block;
     width: 56px;
     height: 66px;
+}
+.owl-carousel2-item {
+    padding: 10px;
 }
 @media(max-width: 1199px) {
     .nav > li > a {

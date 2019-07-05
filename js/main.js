@@ -30,3 +30,21 @@ $(document).ready(function(){
         return false;
     });
 });
+
+var itemsCount=5;
+if (window.matchMedia("(max-width: 991px)").matches) {
+    itemsCount=3;
+}
+if (window.matchMedia("(max-width: 767px)").matches) {
+    itemsCount=2;
+}
+var owl = $('.owl-carousel2');
+owl.owlCarousel({
+    items:itemsCount,
+    loop:true,
+    margin:0,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
