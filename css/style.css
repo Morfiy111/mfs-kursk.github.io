@@ -483,6 +483,9 @@ a:hover {
     background: #9c0;
     z-index: 1010;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 @media(max-width: 1199px) {
     .nav > li > a {
         padding: 10px;
