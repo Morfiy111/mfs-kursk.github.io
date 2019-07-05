@@ -50,6 +50,10 @@ a:hover {
     padding-top: 0;
     padding-bottom: 0;
 }
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+}
+
 .navbar-default .navbar-nav > .active > a {
     color: #2C2A29;
     background-color: transparent;
@@ -109,7 +113,7 @@ a:hover {
 }
 .main-content {
     width: 76%;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .aside-menu-list li {
     position: relative;
@@ -273,7 +277,7 @@ a:hover {
 .footer-copyright {
     width: 24%;
     padding: 25px 0;
-    padding-right: 15px;
+    margin-right: 27px;
 }
 .footer-information {
     width: 76%;
@@ -358,6 +362,99 @@ a:hover {
 }
 .owl-carousel2-item {
     padding: 10px;
+}
+.additionally-head {
+    color: rgb(237, 83, 56);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.extral-links-additionally {
+    background: rgb(242, 242, 242);
+    padding: 20px;
+    width: 64%;
+}
+.mobile-apps {
+    width: 35%;
+}
+.additionally-information-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.additionally-item a {
+    color: #333;
+}
+.additionally-item a:hover {
+    color: rgba(197, 147, 104, 1);
+}
+.additionally-item {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 7px;
+}
+.additionally-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgba(197, 147, 104, 0);
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(197, 147, 104, 1);
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    left: 0;
+    top: 4px;
+}
+.mobile-apps {
+    background: rgba(243, 233, 225, 1);
+    padding: 20px;
+}
+.mobile-apps .additionally-mobile-item {
+    margin-bottom: 15px;
+}
+.additionally-mobile-item span {
+    display: block;
+    text-transform: uppercase;
+    color: rgba(112, 65, 49, 1);
+    font-weight: bold;
+}
+.additionally-mobile-item a {
+    width: 100%;
+    height: 58px;
+    color: #333;
+    display: block;
+    border: 2px solid rgba(197, 147, 104, 1);
+    border-radius: 6px;
+    background: rgb(242, 242, 242);
+    padding: 7px 0 7px 60px;
+    position: relative;
+}
+.additionally-mobile-item a strong {
+    display: block;
+    color: rgba(127, 80, 56, 1);
+}
+.additionally-mobile-item a:after {
+    height: 40px;
+    width: 40px;
+    content: '';
+    display: block;
+    top: 7px;
+    left: 15px;
+    position: absolute;
+    font-family: "FontAwesome";
+    color: rgba(127, 80, 56, 1);
+    font-size: 40px;
+    line-height: 40px;
+}
+.mobile-apps .additionally-mobile-item.ios a:after {
+    content: '\f179';
+}
+.mobile-apps .additionally-mobile-item.android a:after {
+    content: '\f17b';
 }
 @media(max-width: 1199px) {
     .nav > li > a {
