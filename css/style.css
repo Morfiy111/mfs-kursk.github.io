@@ -21,6 +21,7 @@ a:hover {
     padding: 10px 15px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .head-top-line-links a {
     color: #fff;
@@ -66,7 +67,7 @@ a:hover {
     border-right: none;
 }
 .header-logo-block img {
-    width: 85%;
+    width: 80%;
 }
 .navigation-title-block {
     width: 76%;
@@ -230,44 +231,48 @@ a:hover {
 .news-item-img {
     margin: 10px 0;
 }
-.pagination {
-    clear: both;
+.catalog__navigation {
     padding-top: 8px;
     padding-bottom: 8px;
-    border-top: solid 1px rgb(226,226,226);
+    border-top: solid 1px rgb(226, 226, 226);
     width: 100%;
 }
-.pagination a {
-    color: #C39367;
-}
-.pagination a:hover {
-    color: #623B2A;
-}
-.pagination ul {
+.catalog__navigation ul {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0;
     padding: 0;
-    text-align: left;
 }
-.pagination li.pagination-start, .pagination li.pagination-start span {
-    padding: 0;
+.catalog__navigation ul li {
+    margin: 0 5px;
 }
-.pagination li.pagination-start, .pagination li.pagination-next, .pagination li.pagination-end, .pagination li.pagination-prev {
-    border: 0;
+.catalog__navigation ul li .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    color: #303030;
+    font-size: 18px;
+}
+.catalog__navigation ul li .link.active {
+    border-radius: 50%;
+    background-color: #C39367;
+    cursor: default;
+    color: #fff;
+}
+.catalog__navigation ul li .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    color: #303030;
+    font-size: 14px;
 }
 
-.pagination li {
-    display: inline;
-    padding: 2px 5px;
-    text-align: left;
-    margin: 0 2px;
-}
-.pagination li.pagination-start, .pagination li.pagination-start span {
-    padding: 0;
-}
-.pagenav {
-    padding: 2px;
-}
 .footer-information {
     border-top: 1px solid #623B2A;
 }
@@ -455,6 +460,9 @@ a:hover {
 }
 .mobile-apps .additionally-mobile-item.android a:after {
     content: '\f17b';
+}
+.head-top-line-links a:first-child, .head-top-line-links a:nth-child(2), .head-top-line-links a:nth-child(3) {
+    font-size: 12px;
 }
 @media(max-width: 1199px) {
     .nav > li > a {
