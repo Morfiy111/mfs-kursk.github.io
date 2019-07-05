@@ -307,25 +307,24 @@ a:hover {
 }
 .form-search-block:after {content:""; clear:both; display:table}
 .form-search-block form {
-    width: auto;
-    float: right;
+    width: 100%;
 }
 .form-search-block input {
-    width: 250px;
+    width: 100%;
     height: 34px;
     padding-left: 15px;
-    border-radius: 42px;
+    border-radius: 15px;
     border: 2px solid #C39367;
     outline: none;
     position: relative;
     transition: .3s linear;
 }
 .form-search-block input:focus {
-    width: 300px;
+    width: 100%;
 }
 .form-search-block button {
     width: 38px;
-    height: 38px;
+    height: 32px;
     background: none;
     border: none;
     position: absolute;

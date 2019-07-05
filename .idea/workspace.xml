@@ -27,11 +27,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mfc.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="331" column="32" selection-start-line="331" selection-start-column="32" selection-end-line="331" selection-end-column="32" />
+              <caret line="331" column="55" selection-start-line="331" selection-start-column="55" selection-end-line="331" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="485" column="1" selection-start-line="485" selection-start-column="1" selection-end-line="485" selection-end-column="1" />
+            <state relative-caret-position="169">
+              <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/mfc.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/mfc.html" />
       </list>
     </option>
   </component>
@@ -135,12 +135,12 @@
       <updated>1562135447375</updated>
       <workItem from="1562135448846" duration="7267000" />
       <workItem from="1562218478016" duration="25523000" />
-      <workItem from="1562305584005" duration="12439000" />
+      <workItem from="1562305584005" duration="12914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45229000" />
+    <option name="totallyTimeSpent" value="45704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="201" y="136" width="1242" height="675" extended-state="0" />
@@ -185,20 +185,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mfc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="331" column="32" selection-start-line="331" selection-start-column="32" selection-end-line="331" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="485" column="1" selection-start-line="485" selection-start-column="1" selection-end-line="485" selection-end-column="1" />
+          <caret line="331" column="55" selection-start-line="331" selection-start-column="55" selection-end-line="331" selection-end-column="55" />
         </state>
       </provider>
     </entry>
