@@ -291,6 +291,7 @@ a:hover {
 .footer-page {
     color: #644b2d;
     display: flex;
+    align-items: flex-end;
 }
 .footer-page a {
     color: #644b2d;
@@ -311,7 +312,7 @@ a:hover {
 }
 .form-search-block input {
     width: 250px;
-    height: 42px;
+    height: 34px;
     padding-left: 15px;
     border-radius: 42px;
     border: 2px solid #C39367;
@@ -340,6 +341,13 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #623B2A;
+    padding: 20px;
+}
+.footer-links a {
+    color: #fff;
+    display: block;
+    margin-bottom: 7px;
 }
 #button-up {
     display:none;
@@ -463,6 +471,18 @@ a:hover {
 }
 .head-top-line-links a:first-child, .head-top-line-links a:nth-child(2), .head-top-line-links a:nth-child(3) {
     font-size: 12px;
+}
+.footer-column-block {
+    width: 32%;
+}
+.mkgu-widget-btn {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    width: 28px;
+    height: 160px;
+    background: #9c0;
+    z-index: 1010;
 }
 @media(max-width: 1199px) {
     .nav > li > a {
