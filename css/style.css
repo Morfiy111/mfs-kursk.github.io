@@ -281,6 +281,7 @@ a:hover {
 }
 .footer-page {
     color: #644b2d;
+    display: flex;
 }
 .footer-page a {
     color: #644b2d;
