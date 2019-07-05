@@ -140,7 +140,7 @@
             </div>
             <div class="left-banner-block left-banner2">
                 <a href="http://www.gosuslugi.ru" target="_blank"><img src="images/gosuslugi.png" alt=""></a>
-            </div>
+            </div><!--
             <div class="left-banner-block left-working-mode">
                 <div class="left-working-mode-block">
                     <div class="left-working-mode-title">Режим работы</div>
@@ -152,7 +152,60 @@
                     <div class="left-working-mode-day"><span class="red-text">сб.</span> 9.00-16.00</div>
                     <div class="left-working-mode-day"><span class="red-text">вс.</span> <span class="red-text-end">выходной</span></div>
                 </div>
+            </div>-->
+            <div id="noScheduleBlock" class="scheduleBlock block" style="display: none;">
+                <h3 class="left-working-mode-title">Часы работы филиалов</h3>
+                    <select class="hours-office">
+                        <option>выберите филиал</option><option value="1">Центрального филиала</option><option value="2">Ленинского филиала</option><option value="3">Левобережного филиала</option><option value="4">Советского филиала</option><option value="5">Коминтерновского ф-ла</option><option value="6">Железнодорожного ф-ла</option><option value="7">Аннинского ф-ла </option><option value="8">Бобровского ф-ла </option><option value="9">Богучарского ф-ла </option><option value="10">Борисоглебского ф-ла</option><option value="11">Бутурлиновского ф-ла </option><option value="12">В.Мамонского ф-ла </option><option value="13">В.Хавского ф-ла </option><option value="14">Воробьевского ф-ла </option><option value="15">Грибановского ф-ла </option><option value="16">Калачеевского ф-ла </option><option value="17">Каменского ф-ла </option><option value="18">Кантемировского ф-ла </option><option value="19">Каширского ф-ла </option><option value="20">Лискинского ф-ла </option><option value="21">Нижнедевицкого ф-ла </option><option value="22">Новоусманского ф-ла </option><option value="23">Нововоронежского ф-ла </option><option value="24">Новохоперского ф-ла </option><option value="25">Ольховатского ф-ла </option><option value="26">Острогожского ф-ла </option><option value="27">Павловского ф-ла </option><option value="28">Панинского ф-ла </option><option value="29">Петропавловского ф-ла </option><option value="30">Поворинского ф-ла </option><option value="31">Подгоренского ф-ла </option><option value="32">Рамонского ф-ла </option><option value="33">Репьевского ф-ла </option><option value="34">Россошанского ф-ла </option><option value="35">Семилукского ф-ла </option><option value="36">Таловского ф-ла </option><option value="37">Терновского ф-ла </option><option value="38">Хохольского ф-ла </option><option value="39">Эртильского ф-ла </option></select>
             </div>
+            <div id="scheduleBlock" class="scheduleBlock block" style="display: block;">
+                <p class="left-working-mode-title">Часы работы</p>
+                    <select class="hours-office">
+                        <option value="1">Центрального филиала</option>
+                        <option value="2">Ленинского филиала</option>
+                        <option value="3">Левобережного филиала</option>
+                        <option value="4">Советского филиала</option>
+                        <option value="5">Коминтерновского ф-ла</option>
+                        <option value="6">Железнодорожного ф-ла</option>
+                        <option value="7">Аннинского ф-ла </option>
+                        <option value="8">Бобровского ф-ла </option>
+                        <option value="9">Богучарского ф-ла </option>
+                        <option value="10">Борисоглебского ф-ла</option>
+                        <option value="11">Бутурлиновского ф-ла </option>
+                        <option value="12">В.Мамонского ф-ла </option>
+                        <option value="13">В.Хавского ф-ла </option>
+                        <option value="14">Воробьевского ф-ла </option>
+                        </select>
+                <div id="desc-office">г. Воронеж, Московский пр-т, 129/1</div>
+                <div class="part part-mon">
+                    <div class="day day-1 day-mon red-text">Понедельник</div>
+                    <div class="time time-1 time-mon">9:00-18:00 <img src="images/lunch-icon.png" width="12" style="vertical-align:middle" title="Обед"> 13-14:00</div>
+                </div>
+                <div class="part part-tue">
+                    <div class="day day-2 day-tue red-text">Вторник</div>
+                    <div class="time time-2 time-tue">9:00-18:00 </div>
+                </div>
+                <div class="part part-wed">
+                    <div class="day day-3 day-wed red-text">Среда</div>
+                    <div class="time time-3 time-wed">9:00-17:30 </div>
+                </div>
+                <div class="part part-thu">
+                    <div class="day day-4 day-thu red-text">Четверг</div>
+                    <div class="time time-4 time-thu">10:00-20:00 </div>
+                </div>
+                <div class="part part-fri">
+                    <div class="day day-5 day-fri red-text">Пятница</div>
+                    <div class="time time-5 time-fri">9:00-18:00 </div>
+                </div>
+                <div class="part part-sat">
+                    <div class="day day-6 day-sat red-text">Суббота</div>
+                    <div class="time time-6 time-sat">9:00-18:00 <img src="/ui/img/lunch-icon.png" width="12" style="vertical-align:middle" title="Обед"> 13-14:00</div>
+                </div>
+                <div class="part part-sun">
+                    <div class="day day-7 day-sun red-text">Воскресенье</div>
+                    <div class="time time-7 time-sun">выходной </div>
+                </div>
+                <br><p class="title-grey-text">Планируя свой визит, уточняйте время работы специалистов по телефону горячей линии.</p></div>
             <div class="left-banner-block left-banner2">
                 <a href="http://kadastr.ru/site/sposoby/electronic.htm" target="_blank"><img src="images/rosreestr.jpg" alt=""></a>
             </div>

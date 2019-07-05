@@ -101,7 +101,7 @@ a:hover {
     padding-left: 20px;
 }
 .aside-menu-list a{
-    background-color: #C39367;
+    background-color: rgba(195, 147, 103, 0.9);
     color: #fff;
     display: block;
     padding: 10px 24px 10px 10px;
@@ -130,13 +130,13 @@ a:hover {
 }
 .aside-menu-list .angle-link-menu:hover, .aside-menu-list .angle-link-menu:hover i {
     background-color: transparent;
-    color: #F35D17;
+    color: #E04E39;
 }
 .aside-menu-list a:hover {
-    background-color: #F35D17;
+    background-color: #E04E39;
 }
 .aside-menu-list a:hover i {
-    background-color: #F35D17;
+    background-color: #E04E39;
 }
 .owl-next {
     position: absolute;
@@ -485,6 +485,22 @@ a:hover {
 }
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+#desc-office {
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+}
+.scheduleBlock {
+    margin-bottom: 30px;
+}
+.hours-office {
+    background-color: #C39367;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.time img {
+    margin-right: 0px;
 }
 @media(max-width: 1199px) {
     .nav > li > a {
