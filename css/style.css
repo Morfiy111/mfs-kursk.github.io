@@ -20,7 +20,7 @@ a:hover {
     background-color: #623B2A;
     padding: 10px 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 .head-top-line-links a {
@@ -522,6 +522,9 @@ a:hover {
 .footer-social a {
     margin-right: 7px;
     font-size: 20px;
+}
+#specialversion2 img {
+    height: 40px;
 }
 @media(max-width: 1199px) {
     .nav > li > a {
