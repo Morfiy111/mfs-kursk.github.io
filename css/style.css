@@ -211,6 +211,11 @@ a:hover {
 }
 .partners-content {
     margin-bottom: 30px;
+    padding: 20px 20px 20px 110px;
+    background-color: rgb(242, 242, 242);
+    background-image: url("../images/rss-icons-png-5.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 .news-item-date, .news-item-read {
     font-size: 11.5px;
