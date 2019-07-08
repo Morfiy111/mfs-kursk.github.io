@@ -38,6 +38,9 @@ if (window.matchMedia("(max-width: 991px)").matches) {
 if (window.matchMedia("(max-width: 767px)").matches) {
     itemsCount=2;
 }
+if (window.matchMedia("(max-width: 450px)").matches) {
+    itemsCount=1;
+}
 var owl = $('.owl-carousel2');
 owl.owlCarousel({
     items:itemsCount,

@@ -26,6 +26,7 @@ a:hover {
 .head-top-line-links a {
     color: #fff;
     margin-left: 15px;
+    white-space: nowrap;
 }
 .head-top-line-links a:hover {
     color: #E04E39;
@@ -368,12 +369,13 @@ a:hover {
     line-height: 30px;
     text-decoration: none;
     padding: 0px 0 0 28px;
-    background: url("../images/scrolltop.png") no-repeat 7px 11px #ffffff;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
     border-radius: 0 4px 4px 0;
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     -o-border-radius: 0 4px 4px 0;
     cursor:pointer;
+    z-index: 9;
 }
 #button-up span {
     display: block;
@@ -591,5 +593,90 @@ a:hover {
     .header-logo-block {
         width: 30%;
     }
-
+}
+@media (max-width: 767px) {
+    .header-page-block {
+        flex-direction: column;
+    }
+    .navigation-title-block {
+        width: 100%;
+    }
+    .header-logo-block {
+        width: 100%;
+        text-align: center;
+    }
+    .header-logo-block img {
+        width: 280px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #623B2A;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #623B2A;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-nav > li {
+        border-right: none;
+        margin: 15px 0;
+    }
+    .main-page-block {
+        flex-direction: column;
+    }
+    .left-aside {
+        width: 100%;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .news-item-block {
+        width: 48%;
+    }
+    .main-content {
+        padding-left: 0;
+    }
+    .navbar-toggle {
+        margin-right: 0;
+    }
+    .partners-content {
+        background-image: none;
+        padding: 20px;
+    }
+    .footer-page {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-copyright {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-information {
+        width: 100%;
+    }
+    .catalog__navigation {
+        flex-direction: column;
+    }
+    .footer-links {
+        flex-wrap: wrap;
+    }
+    .footer-column-block {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .footer-column-block:last-child {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .head-top-line-links a {
+        margin-left: 10px;
+    }
+}
+@media(max-width: 450px) {
+    .news-item-block {
+        width: 100%;
+    }
+    #specialversion2 img {
+        height: 26px;
+    }
 }
