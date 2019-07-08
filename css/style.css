@@ -530,13 +530,17 @@ a:hover {
     .nav > li > a {
         padding: 10px;
     }
+    .partners-content {
+        background-size: auto 60%;
+        background-position: 0 100%;
+    }
 }
 @media (max-width: 991px) {
     .navbar-nav > li {
         margin: 8px 0;
     }
     .navigation-title-block {
-        width: 74%;
+        width: 70%;
     }
     .head-line-empty, .header-logo-block {
         width: 26%;
@@ -548,4 +552,44 @@ a:hover {
     .pagination li {
         padding: 2px;
     }
+    .additionally-information-block {
+        flex-direction: column;
+    }
+    .extral-links-additionally, .mobile-apps {
+        width: 100%;
+    }
+    .partners-content {
+        background-size: auto 50%;
+    }
+    .footer-copyright {
+        padding: 0;
+    }
+    .main-content {
+        width: 70%;
+    }
+    .left-aside {
+        width: 30%;
+    }
+    .footer-information {
+        width: 70%;
+    }
+    .footer-copyright {
+        width: 30%;
+    }
+    .main-title {
+        font-size: 16pt;
+    }
+    .head-top-line-links {
+        width: 100%;
+    }
+    .head-line-empty {
+        width: 0;
+    }
+    .header-page-block {
+        margin-top: 20px;
+    }
+    .header-logo-block {
+        width: 30%;
+    }
+
 }
