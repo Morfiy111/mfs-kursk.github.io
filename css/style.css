@@ -236,6 +236,9 @@ a:hover {
     padding-bottom: 8px;
     border-top: solid 1px rgb(226, 226, 226);
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .catalog__navigation ul {
     list-style-type: none;
@@ -501,6 +504,19 @@ a:hover {
 }
 .time img {
     margin-right: 0px;
+}
+.all-news-pagination {
+    color: #C39367;
+}
+.all-news-pagination:hover {
+    color: #623B2A;
+}
+.footer-social {
+    display: flex;
+}
+.footer-social a {
+    margin-right: 7px;
+    font-size: 20px;
 }
 @media(max-width: 1199px) {
     .nav > li > a {
