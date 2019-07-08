@@ -75,3 +75,33 @@ jQuery(document).ready(function() {
     jQuery("#scheduleBlock").hide();
     //jQuery("#hours-office").trigger("change");
 });
+
+$(".names-select2").select2({
+    minimumInputLength: 1, // минимальная длинна ввода, после которой можно отправлять запрос на сервер
+    allowClear: true,
+    placeholder: "—",
+    ajax: {
+        url: "/some/path", // адрес бэкэн-обработчика (url)
+        delay: 250,
+        type: "post",
+        dataType: "json",
+        cache: true,
+        // что будем отправлять на сервер в запросе
+        data: function (obj) {
+            console.log(obj);
+            /* obj.term --то что ввёл пользователь,
+             * но вы можете и обработать это ввод пред тем
+             * как отправлять на сервер,
+             * может добавитьдоп. парамерты */
+
+            return obj.term;
+        },
+        /* обрабатываем то, что пришло с сервера
+         * (напр. просто берём подмассив) */
+        processResults: function (data, params) {
+            return {
+                results: data.names
+            };
+        }
+    }
+});
