@@ -539,6 +539,16 @@ a:hover {
     background-color: #623b2a;
     border-color: #623b2a;
 }
+.breadcrumb {
+    padding-left: 0;
+    background-color: transparent;
+}
+.breadcrumb a {
+    color: #C39367;
+}
+.breadcrumb a:hover {
+    color: #623B2A;
+}
 @media(max-width: 1199px) {
     .nav > li > a {
         padding: 10px;
