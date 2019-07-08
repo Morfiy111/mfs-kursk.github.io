@@ -295,6 +295,7 @@ a:hover {
 .footer-information {
     width: 76%;
     padding: 24px 0;
+    background-color: #623B2A;
 }
 .footer-page {
     color: #644b2d;
@@ -348,8 +349,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #623B2A;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .footer-links a {
     color: #fff;
