@@ -12,13 +12,13 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/select2.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- Предупреждение: Respond.js не работает при просмотре страницы через файл:// -->
     <!--[if lt IE 9]>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script >
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet"/>
+
     <![endif]-->
 </head>
 <body>
@@ -229,17 +229,18 @@
             <form id="w0" action="" method="post">
                 <input type="hidden">
                 <div class="form-group field-feedback-type required">
-                <label class="control-label" for="feedback-type">Тип обращения</label>
-                    <select class="js-example-basic-single">
-                        <option value="AL">Алабама</option>
-                        ...
-                        <option value="WY">Вайоминг</option>
+                <label class="control-label" for="js-example-basic-single">Тип обращения</label>
+                    <select class="js-example-basic-single" name="state" id="js-example-basic-single">
+                        <option value="PR">Предложение</option>
+                        <option value="JL">Жалоба</option>
+                        <option value="QU">Вопрос</option>
+                        <option value="SY">Благодарность</option>
                     </select>
 
                 </div>
                 <div class="form-group field-feedback-message required">
                 <label class="control-label" for="feedback-message">Текст обращения</label>
-                <textarea id="feedback-message" class="form-control" name="Feedback[message]" aria-required="true"></textarea>
+                <textarea id="feedback-message" class="form-control" aria-required="true"></textarea>
 
                 <p class="help-block help-block-error"></p>
             </div><div class="form-group field-feedback-fio required">
@@ -267,7 +268,7 @@
 
                 </div>
             </div><div class="form-group">
-                <button type="submit" class="btn btn-success">Отправить сообщение</button></div>
+                <button type="submit" class="btn btn-success btn-form-feedback">Отправить сообщение</button></div>
 
             </form>
             <div class="additionally-information-block">
@@ -383,17 +384,11 @@
         <script type="text/javascript" src="https://vashkontrol.ru/widget/mkgu_widget.js"></script>
     </div>
     </div>
-    <script>
-        $(document).ready(function() {
-            $(".js-example-basic-single").select2();
-        });
-    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

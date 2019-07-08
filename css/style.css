@@ -528,6 +528,17 @@ a:hover {
 #specialversion2 img {
     height: 40px;
 }
+.select2-container {
+    width: 100% !important;
+}
+.btn-form-feedback {
+    background-color: #816255;
+    border-color: #623b2a;;
+}
+.btn-form-feedback:hover {
+    background-color: #623b2a;
+    border-color: #623b2a;
+}
 @media(max-width: 1199px) {
     .nav > li > a {
         padding: 10px;

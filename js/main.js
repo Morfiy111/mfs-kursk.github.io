@@ -76,3 +76,7 @@ jQuery(document).ready(function() {
     //jQuery("#hours-office").trigger("change");
 });
 
+
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
