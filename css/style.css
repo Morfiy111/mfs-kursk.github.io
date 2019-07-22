@@ -549,6 +549,7 @@ a:hover {
 .breadcrumb a:hover {
     color: #623B2A;
 }
+
 @media(max-width: 1199px) {
     .nav > li > a {
         padding: 10px;
@@ -691,6 +692,16 @@ a:hover {
     }
     .head-top-line-links a {
         margin-left: 10px;
+    }
+    .dropdown-menu {
+        position: initial; */
+        display: none;
+        float: none;
+        min-width: auto;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        border: none;
     }
 }
 @media(max-width: 450px) {
