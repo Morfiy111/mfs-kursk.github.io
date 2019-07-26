@@ -60,11 +60,12 @@ jQuery(document).ready(function() {
     jQuery(".hours-office").change(function(e) {
         jQuery("#noScheduleBlock").hide();
         jQuery("#scheduleBlock").show();
-        off		=	jQuery(this).val();
+        var off		=	jQuery(this).val();
         works	=	offices[off].work;
         lunchs	=	offices[off].lunch;
         desc	=	offices[off].desc;
         jQuery("#desc-office").html(desc);
+        jQuery("#scheduleBlock").find(".hours-office").val(off);
         for (var i = 0; i < 7; i++)	{
             lunch	=	(lunchs[i] != "")?'<img src="images/lunch-icon.png" width="12" style="vertical-align:middle" title="Обед"/>' + lunchs[i]:"";
             work	=	works[i] + ' ' + lunch;
